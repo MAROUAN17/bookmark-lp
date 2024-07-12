@@ -10,6 +10,10 @@ module.exports = {
       screens: {
         'sm': '400px',
       },
+      spacing: {
+        '17': '4.4rem',
+        '47': '12.1rem',
+      }
     },
   },
   plugins: [],
