@@ -12,22 +12,24 @@
     <title>Document</title>
 </head>
 <body class="font-rubik">
-    <nav class="flex justify-around items-center mt-12 lg:text-sm">
+    <!-- navrbar --> 
+    <nav class="flex sm:justify-around mt-12 lg:w-full lg:justify-between">
         <img class="" src="./assets/logo-bookmark.svg" alt="agency-logo">
-        <div class="hidden lg:flex lg:space-x-10 lg:items-center lg:font-semibold text-gray-600">
+        <div class="hidden text-gray-600 lg:flex lg:space-x-10 lg:items-center lg:font-semibold">
             <p class="">FEATURES</p>
             <p class="">PRICING</p>
             <p class="">CONTACT</p>
             <a class="rounded-lg bg-red-500 text-white px-6 py-2">LOGIN</a>
         </div>
         <div class="">
-            <i class="md:hidden fa-solid fa-bars fa-xl"></i>
+            <i class="lg:invisible visible fa-solid fa-bars fa-xl"></i>
         </div>
     </nav>
+    <!-- navbar -->
+    <!-- header  -->
     <div class="mt-24 md:flex md:justify-around md:mt-16">
-        <div class="md:flex md:justify-end md:mr-12">
-            <div class="bg-blue-700"></div>
-            <img class="md:w-4/5" src="./assets/illustration-hero.svg" alt="illustration-1">
+        <div class="max-sm:flex max-sm:justify-end max-sm:mr-12 lg:hidden">
+            <img class="max-sm:w-4/5" src="./assets/illustration-hero.svg" alt="illustration-1">
         </div>
         <div class="md:text-gray-700 md:mt-16 md:ml-48">
             <h1 class="mt-16 flex justify-center text-gray-700  text-4xl font-bold">A Simple Bookmark</h1>
@@ -43,6 +45,7 @@
             <img class="md:w-4/5" src="./assets/illustration-hero.svg" alt="illustration-1">
         </div>
     </div>
+    <!-- header  -->
     <div>
         <div class="mt-48">
             <h1 class="flex justify-center text-2xl font-semibold">Features</h1>
@@ -133,7 +136,44 @@
             <a href="" class="text-lg ml-8 pb-4">What about another chromium browsers?</a>
             <img src="./assets/icon-arrow.svg" alt="arrow-img" class="mx-auto w-6 h-4 mt-1"/>
         </div>
+        <div class="flex justify-center mt-12">
+            <a href="" class="bg-blue-700 px-5 py-3 rounded-lg text-white">More Info</a>
+        </div>
     </div>
-    <div class="mt-12"></div>
+    <!-- footer -->
+    <div class="mt-32 bg-blue-600 text-white p-12">
+        <div class="flex justify-center">
+            <p class="tracking-widest text-lg">35.000+ ALREADY JOINED</p>
+        </div>
+        <div class="flex justify-center mt-4">
+            <h1 class="text-center text-2xl font-semibold">Stay up-to-date with what <br>we're doing</h1>
+        </div>
+        <div class="mt-8 flex justify-center">
+            <input class="w-full h-12 px-6 rounded-lg placeholder:text-gray-300" placeholder="Enter your email address" />
+        </div>
+        <div class="flex justify-center mt-4">
+            <a href="" class="bg-red-500 w-full h-12 rounded-lg text-center py-3">Contact Us</a>
+        </div>
+    </div>
+    <div class="bg-blue-900 p-12 text-lg">
+        <div class="flex-row justify-center space-y-8">
+            <div class="flex justify-center">
+                <img class="" src="./assets/logo-bookmark.svg" alt="bookmark-logo">
+            </div>
+            <div class="flex justify-center">
+                <h1 class="text-white">FEATURES</h1>
+            </div>
+            <div class="flex justify-center">
+                <h1 class="text-white">PRICING</h1>
+            </div>
+            <div class="flex justify-center">
+                <h1 class="text-white">CONTACT</h1>
+            </div>
+            <div class="flex justify-center space-x-6 py-6">
+                <i class="fa-brands fa-xl fa-square-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-xl fa-twitter" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
